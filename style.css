@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: "Poppins", sans-serif;
+  }
+  #form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  #form h1 {
+    color: darkslategrey;
+    text-align: center;
+  }
+  
+  #form button {
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .input-control {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-control input {
+    border: 2px white;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    width: 100%;
+  }
+  
+  .input-contol input:focus {
+    outline: 0;
+  }
+  .input-contol.success input {
+    border-color: blue;
+  }
+  
+  .input-contol.error input {
+    border-color: gold;
+  }
+  .input-control.error {
+    color: red;
+    font-size: 9px;
+    height: 13px;
+  }
