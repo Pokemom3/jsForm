@@ -1,4 +1,5 @@
 # jsForm
+*Commits made to *master branch
 
 A simple sign up registration form using vanilla Js, html and css.
 
